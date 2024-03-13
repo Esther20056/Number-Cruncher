@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+body{
+    background:linear-gradient(to right, lightblue, royalblue);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+  background:linear-gradient(to up, #fff, lightblue);
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 3px solid #0000ff;
+}
+#screen{
+    border: blue 5px groove ;
+    height: 4rem;
+    border-radius: 0.8rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 0.8rem 2rem;
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: right;
+}
+
+button{
+    width: 20%;
+    height: 3rem;
+    font-size: 1.4rem;
+    margin-top: 0.7rem;
+    background-color: rgba(173, 216, 230, 0.3);
+    border-radius: 1rem;
+    border: transparent;
+    color: #fff;
+}
+
+.allbuttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+button:active{
+    background-color: #3939f6;
+}
+.allbuttons >.zero{
+    width: 40%;
+    height: 3.5;
+    background-color: #0000ff;
+    bottom:-0.6rem;
+}
+.allbuttons> .zero:active{
+    background: transparent;
+}
+
+.allbuttons> .slash{
+    color: #0000ff;
+    font-size: 1.7rem;
+}
+.allbuttons> .slash:active{
+    color: #fff;
+}
+.allbuttons> .delete:active{
+    background-color: transparent;
+}
+.allbuttons> .slash2{
+    width: 30%;
+    font-size: 1.7rem;
+    background-color: #0000ff;
+}
+.allbuttons> .slash2:active{
+    background-color: transparent;
+}
+
+

@@ -10,6 +10,9 @@ buttons.forEach((button) => {
     else if(e.target.innerText == "AC"){
         screen.innerText = 0
     }
+    else if(e.target.innerText == "×"){ 
+        screen.innerText += "*";
+    }
     else if(e.target.innerText == "DEL"){
         screen.innerText = screen.innerText.slice(0, -1)
     }

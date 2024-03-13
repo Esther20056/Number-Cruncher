@@ -8,7 +8,7 @@ buttons.forEach((button) => {
         screen.innerText = result;
     }
     else if(e.target.innerText == "AC"){
-        screen.innerText = 0
+        screen.innerText = 0;
     }
     else if(e.target.innerText == "×"){ 
         screen.innerText += "*";
